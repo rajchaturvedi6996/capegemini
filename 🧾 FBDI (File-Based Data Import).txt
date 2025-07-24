@@ -1,0 +1,26 @@
+🧾 FBDI (File-Based Data Import)
+You use Excel files or CSVs to send data into Oracle.
+
+Steps:
+
+Download Oracle’s template file (like a special Excel format)
+
+Fill in your data (invoices, employees, etc.)
+
+Upload the file into Object Storage
+
+Run a process to move it into Oracle’s database/app
+
+🟢 You’ll learn this first. It’s used everywhere and easy.
+
+3. 🔄 OIC (Oracle Integration Cloud)
+
+ Run Import Job	Oracle reads the file, validates data, puts it into its database	✅ YES — THIS IS INTEGRATION
+
+The red step above — "Run Import Job" — is where integration happens.
+Oracle Cloud = The ground
+Fusion Apps = The buildings built on that ground
+Integration = The pipelines that bring data into the buildings
+
+
+
